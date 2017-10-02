@@ -1,0 +1,8 @@
+{
+    "nodeEnv": "NODE_ENV",
+    "port": "PORT",
+    "coreLogic": {
+      "clientId": "CORE_LOGIC_CLIENT_ID",
+      "clientSecret": "CORE_LOGIC_SECRET"
+    }
+}

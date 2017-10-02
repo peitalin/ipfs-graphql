@@ -1,0 +1,6 @@
+{
+  "coreLogic": {
+    "clientId": "TEST_ID",
+    "clientSecret": "SOME_TEST_SEKRIT"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "name": "ipfs-gql",
+  "version": "1.0.0",
+  "description": "ipfs-gql",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "precommit": "./pre-commit.sh",
+    "test": "./node_modules/.bin/jest --verbose"
+  },
+  "author": "Peita Lin",
+  "dependencies": {
+    "axios": "^0.16.1",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-env": "^1.4.0",
+    "babel-register": "^6.24.1",
+    "compression": "^1.6.2",
+    "config": "^1.26.1",
+    "cors": "^2.8.3",
+    "debug": "^2.6.7",
+    "express": "^4.15.2",
+    "express-graphql": "^0.6.4",
+    "graphql": "^0.9.6",
+    "ipfs-js": "^0.0.11",
+    "jwt-decode": "^2.2.0",
+    "morgan": "^1.8.1",
+    "node-cache": "^4.1.1",
+    "react-json-tree": "^0.10.9",
+    "winston": "^2.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.3",
+    "husky": "^0.13.3",
+    "jest": "^20.0.1"
+  },
+  "jest": {
+    "setupFiles": [
+      "./test-setup.js"
+    ]
+  }
+}

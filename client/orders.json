@@ -1,0 +1,148 @@
+{
+  "orders": [
+    {
+      "id": 1,
+      "acceptedOrder": false,
+      "orderType": "Dine-In",
+      "paid": 17.5,
+      "date": "NEW",
+      "table": 42,
+      "name": "Lauren",
+      "surname": "Numerai",
+      "email": "L.Numer.ai@numer.ai",
+      "orderItems": {
+        "burgers": [
+          {
+            "menuItem": "Grilled Chicken",
+            "menuItemOption": "White Bun",
+            "menuItemQuantity": 1
+          }
+        ],
+        "sides": [
+          {
+            "menuItem": "Small Fries",
+            "menuItemOption": "Tomato Sauce",
+            "menuItemQuantity": 1
+          }
+        ],
+        "drinks": [
+          {
+            "menuItem": "Soft Drink",
+            "menuItemOption": "",
+            "menuItemQuantity": 1
+          }
+        ],
+        "salads": []
+      }
+    },
+    {
+      "id": 2,
+      "orderType": "Dine-In",
+      "acceptedOrder": true,
+      "paid": 27.7,
+      "table": "",
+      "date": "10 minutes ago",
+      "name": "Walter",
+      "surname": "Ether",
+      "email": "wEther@gmail.com",
+      "orderItems": {
+        "burgers": [
+          {
+            "menuItem": "Classic Beef",
+            "menuItemOption": "White Bun",
+            "menuItemQuantity": 1
+          },
+          {
+            "menuItem": "Veggie Pattie",
+            "menuItemOption": "Whole Meal Bun",
+            "menuItemQuantity": 1
+          }
+        ],
+        "sides": [
+          {
+            "menuItem": "Small Fries",
+            "menuItemOption": "Tomato Sauce",
+            "menuItemQuantity": 2
+          }
+        ],
+        "drinks": [
+          {
+            "menuItem": "Soft Drink",
+            "menuItemOption": "",
+            "menuItemQuantity": 1
+          },
+          {
+            "menuItem": "Apple Juice",
+            "menuItemOption": "",
+            "menuItemQuantity": 1
+          }
+        ],
+        "salads": []
+      }
+    },
+    {
+      "id": 3,
+      "orderType": "Dine-In",
+      "acceptedOrder": true,
+      "table": 3,
+      "paid": 15.55,
+      "date": "12 minutes ago",
+      "name": "John",
+      "surname": "Lisk",
+      "email": "Jo.Lisk@gmail.com",
+      "orderItems": {
+        "burgers": [],
+        "sides": [],
+        "drinks": [
+          {
+            "menuItem": "Orange Juice",
+            "menuItemOption": "",
+            "menuItemQuantity": 1
+          }
+        ],
+        "salads": [
+          {
+            "menuItem": "Green Salad",
+            "menuItemOption": "Caesar Sauce",
+            "menuItemQuantity": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "orderType": "Dine-In",
+      "acceptedOrder": true,
+      "paid": 11,
+      "table": 4,
+      "date": "20 minutes ago",
+      "name": "Jesse",
+      "surname": "Steem",
+      "email": "j.Steemit@gmail.com",
+      "orderItems": {
+        "burgers": [
+          {
+            "menuItem": "Tori Katsu Udon",
+            "menuItemOption": "Spicy",
+            "menuItemQuantity": 1
+          }
+        ],
+        "sides": [
+          {
+            "menuItem": "Small Fries",
+            "menuItemOption": "",
+            "menuItemQuantity": 1
+          }
+        ],
+        "drinks": [
+          {
+            "menuItem": "Green Tea",
+            "menuItemOption": "",
+            "menuItemQuantity": 1
+          }
+        ],
+        "salads": []
+      }
+    }
+  ]
+}

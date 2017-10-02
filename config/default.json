@@ -1,0 +1,9 @@
+{
+  "port": 3000,
+  "nodeEnv": "development",
+  "coreLogic": {
+    "authUrl": "https://access-api.corelogic.asia/access/oauth/token",
+    "searchUrl": "https://search-sandbox-api.corelogic.asia/search/au/matcher/address",
+    "propertyUrl": "https://property-sandbox-api.corelogic.asia/bsg-au/v1/property/"
+  }
+}
